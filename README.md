@@ -280,7 +280,7 @@ route at the `/` URL. We tell our application to respond to `HTTP GET` requests
 to `/` by rendering the designated ERB template or HTML.
 
 The line `erb :index` tells the application to render, or deliver to the user's
-browser, the file in `views/index.erb`. This is a Sinatra-provided functionality
+browser, views/index.erb`. This is a Sinatra-provided functionality
 that renders ERB templates located in the `views` directory. Let's look at that
 view file.
 
@@ -598,4 +598,3 @@ We learned about:
 Great job!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/intro-to-capybara'>Intro to Capybara Tests</a> on Learn.co and start learning to code for free.</p>
-
